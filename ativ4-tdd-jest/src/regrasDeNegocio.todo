@@ -1,0 +1,7 @@
+Regras:
+Escreva a função de teste para testar uma rotina que calcule 
+o valor de uma parcela considerando que:
+
+paga-se 5% de juros até 30 dias de atraso
+paga-se 10% de juros de 31 até 60 dias de atraso
+paga-se 15% de juros a partir de 60 dias de atraso
