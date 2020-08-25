@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 //const response  = require('express')
-const Tarefa = mongoose.model('tarefaModel')
+const Tarefa = mongoose.model('Tarefas')
 
 module.exports = {
 
@@ -35,17 +35,17 @@ async delete(req, res) {
 }
 
 
-  // const {descricao, dataCriacao, status} = req.body
-  // let novaTarefa = new Tarefa({descricao, dataCriacao, status})
-  // novaTarefa.save((error, tarefa) => {
-  //   if (error) {
-  //     res.send(error)
-  //   }
-  //   let response = {
-  //   message: 'tarefa cadastrada com sucesso!',
-  //   data: tarefa
-  // }
-  // res.status(201).json(response)
-  // })
+//   const {descricao, dataCriacao, status} = req.body
+//   let novaTarefa = new Tarefa({descricao, dataCriacao, status})
+//   novaTarefa.save((error, tarefa) => {
+//     if (error) {
+//       res.send(error)
+//     }
+//     let response = {
+//     message: 'tarefa cadastrada com sucesso!',
+//     data: tarefa
+//   }
+//   res.status(201).json(response)
+//   })
   
 }
